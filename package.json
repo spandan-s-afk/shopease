@@ -1,0 +1,29 @@
+{
+  "name": "shopease",
+  "version": "1.0.0",
+  "description": "Simple E-commerce Backend with MongoDB",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecommerce",
+    "backend",
+    "express",
+    "mongodb",
+    "api"
+  ],
+  "author": "Spandan Balabantaray",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.3",
+    "react-router-dom": "^7.9.5"
+  }
+}
